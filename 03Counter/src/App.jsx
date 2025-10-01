@@ -6,7 +6,20 @@ import './App.css'
 function App() {
 	let [counter, setCounter] = useState(15);
 	const incval = () => {
-		if(counter<30) setCounter(++counter);
+		// if(counter<30) setCounter(counter + 1);
+		// setCounter(counter + 1);
+		// setCounter(counter + 1);
+		// setCounter(counter + 1);
+
+		// if(counter<30) setCounter(counter++);
+		// setCounter(counter++);
+		// setCounter(counter++);
+		// setCounter(counter++);
+
+		if(counter<30) setCounter((counter) => counter + 1);
+		setCounter((counter) => counter + 1);
+		setCounter((counter) => counter + 1);
+		setCounter((counter) => counter + 1);
 	}
 	const decval = () => {
 		if(counter>0) setCounter(--counter);
