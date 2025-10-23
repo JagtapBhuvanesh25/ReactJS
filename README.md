@@ -114,15 +114,6 @@ This project currently **does not include a license**.
 
 ---
 
-## 💡 Suggestions for Improvement
-
-* Add a `LICENSE` file to define usage rights.
-* Include demo GIFs/screenshots for each mini-project.
-* Use `pnpm` or a monorepo setup for unified dependency management.
-* Add a root `package.json` to simplify running sub-projects.
-
----
-
 ⭐ **Star the repo if you found it helpful!**
 
 Learning React is best done hands-on — each folder here represents one step closer to mastering it.
